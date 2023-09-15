@@ -108,5 +108,19 @@ namespace Intro_Csharp
 
 
         }
+        public void Uppgift_3a()
+        {
+            int Räknare = 1;
+
+            while (Räknare <= 5)
+            {
+                Console.WriteLine(Räknare);
+                Räknare++;
+            }
+
+
+
+
+        }
     }
 }
