@@ -28,7 +28,7 @@ namespace Intro_Csharp
 
 
         }
-     
+
         public void Uppgift_1c()
         {
             double bredd;
@@ -40,7 +40,7 @@ namespace Intro_Csharp
             bredd = Convert.ToDouble(text);
             Console.WriteLine("Ange triangelns Höjd: ");
             String text2 = Console.ReadLine();
-             höjd = Convert.ToDouble(text2);
+            höjd = Convert.ToDouble(text2);
 
             double area;
             area = bredd * höjd / 2;
@@ -55,7 +55,8 @@ namespace Intro_Csharp
 
 
         }
-        public void Uppgift_1d() {
+        public void Uppgift_1d()
+        {
             Console.WriteLine("Skriv in det första talet: ");
             string input1 = Console.ReadLine();
             int tal = Convert.ToInt32(input1);
@@ -66,19 +67,21 @@ namespace Intro_Csharp
             double sum = tal + tal2;
             Console.WriteLine($"Summan av {input1} och {input2} är {sum}");
 
+        }
 
 
-
-
-
-
-
-
-
-
-
-
-
+        public void Uppgift_2a()
+        {
+            Console.WriteLine("Gissa mitt favorittal!");
+            string input1 = Console.ReadLine();
+            if (input1 == "28")
+            {
+                Console.WriteLine("Du Gissade Rätt");
+            }
+            else
+            {
+                Console.WriteLine("Du gissade fel");
+            }
 
 
 

@@ -3,4 +3,4 @@ using Intro_Csharp;
 
 Console.WriteLine("Hello, World!");
 Solution solution = new Solution();
-solution.Uppgift_1d();
+solution.Uppgift_2a();
