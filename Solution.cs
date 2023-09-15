@@ -68,8 +68,6 @@ namespace Intro_Csharp
             Console.WriteLine($"Summan av {input1} och {input2} är {sum}");
 
         }
-
-
         public void Uppgift_2a()
         {
             Console.WriteLine("Gissa mitt favorittal!");
@@ -83,7 +81,30 @@ namespace Intro_Csharp
                 Console.WriteLine("Du gissade fel");
             }
 
+        }  
+
+
         public void Uppgift_2b()
+        {
+                Random randomGenerator = new Random();
+                int Tärning = randomGenerator.Next(1, 7);
+                int Tärning1 = randomGenerator.Next(1, 7);
+                Console.WriteLine("Tärning 1 visar: " + Tärning);
+                Console.WriteLine("Tärning 2 visar: " + Tärning1);
+                if (Tärning == Tärning1)
+                    Console.WriteLine("Din baj du kastade bra");
+                else
+                {
+                    Console.WriteLine("Du kastade som en sopa");
+                }
+
+
+
+
+
+            
+
+
 
 
         }
