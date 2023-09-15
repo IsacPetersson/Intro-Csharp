@@ -83,6 +83,7 @@ namespace Intro_Csharp
                 Console.WriteLine("Du gissade fel");
             }
 
+        public void Uppgift_2b()
 
 
         }
